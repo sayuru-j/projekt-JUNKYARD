@@ -29,10 +29,12 @@
     border-radius: 0px;
 }
 
-.search-bar-nav {
+.sign-up-btn {
   margin-left: auto; 
   margin-right: 20px;
+  margin-top: 5px;
 }
+
 
 
 .brand-black-bg {
@@ -48,7 +50,11 @@
   height: 35px;
 }
 
+.container-home{
+  min-height: 500px;
+}
+
 .container-footer {
-  background-color: rgb(166, 255, 0);
-  -webkit-text-fill-color: black;
+  background-color: rgb(48, 48, 48);
+  -webkit-text-fill-color: rgb(255, 255, 255);
 }

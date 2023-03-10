@@ -55,11 +55,8 @@ const Layout = ({children}) => {
             <li className="nav-item">
                 <Link className="nav-link text-light" href="/aboutus">About Us</Link>
             </li>
-            <div className="search-bar-nav">
-            <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            <div className="sign-up-btn">
+            <button type="button" class="btn btn-primary btn-sm">Sign Up For Services</button>
             </div>
             </ul>
             
@@ -67,8 +64,7 @@ const Layout = ({children}) => {
     )
 
     const footer = () => (
-        <div className="container-footer">
-            <footer className="py-3 my-4">
+            <footer className="py-3 my-4 container-footer">
                 <ul className="nav justify-content-center border-bottom pb-3 mb-3">
                 <li className="nav-item"><Link href="/" className="nav-link px-2 text-muted">Home</Link></li>
                 <li className="nav-item"><Link href="#" className="nav-link px-2 text-muted">Features</Link></li>
@@ -78,7 +74,6 @@ const Layout = ({children}) => {
                 </ul>
                 <p className="text-center text-muted">&copy; 2021 Company, Inc</p>
             </footer>
-        </div>
     )
 
     return <React.Fragment>
