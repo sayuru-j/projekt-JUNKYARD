@@ -29,6 +29,10 @@
     border-radius: 0px;
 }
 
+.search-bar-nav {
+  margin-left: auto; 
+  margin-right: 20px;
+}
 
 
 .brand-black-bg {

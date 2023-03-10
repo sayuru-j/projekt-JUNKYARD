@@ -12,8 +12,8 @@ Router.onRouteChangeComplete = url => nProgress.done()
 Router.onRouteChangeError = url => nProgress.done();
 
 const Layout = ({children}) => {
-    const head = () => {
-           return <React.Fragment>
+    const head = () => (
+           <React.Fragment>
            <header>
             <link 
             rel="stylesheet" 
@@ -23,52 +23,60 @@ const Layout = ({children}) => {
             <link rel="stylesheet" href="/static/css/styles.css"/>
            </header>
            </React.Fragment>
-    }
+    )
 
-    const brand = () => {
-        return  <div className="brand-black-bg">
+    const brand = () => (
+        <div className="brand-black-bg">
             <img className="brand-logo" src="/static/images/junkyard-logo.png" alt="jy-logo"/>
         </div>
-        
-    }
+    )
+    
             
     
             
 
     const nav = () => (
                     <ul className="nav nav-tabs bg-dark">
-            <li class="nav-item">
+            <li className="nav-item">
                 <Link className="nav-link text-light" href="/">Home</Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
                 <Link className="nav-link text-light" href="/collect">Collect</Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
                 <Link className="nav-link text-light" href="/center">Centers</Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
                 <Link className="nav-link text-light" href="/product">Products</Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
                 <Link className="nav-link text-light" href="/fleet">Fleet</Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
                 <Link className="nav-link text-light" href="/aboutus">About Us</Link>
             </li>
+            <div className="search-bar-nav">
+            <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            </div>
             </ul>
+            
+            
     )
 
     const footer = () => (
-        <div class="container-footer">
-            <footer class="py-3 my-4">
+        <div className="container-footer">
+            <footer className="py-3 my-4">
                 <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-                <li className="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                <li className="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-                <li className="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-                <li className="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-                <li className="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+                <li className="nav-item"><Link href="/" className="nav-link px-2 text-muted">Home</Link></li>
+                <li className="nav-item"><Link href="#" className="nav-link px-2 text-muted">Features</Link></li>
+                <li className="nav-item"><Link href="#" className="nav-link px-2 text-muted">Pricing</Link></li>
+                <li className="nav-item"><Link href="#" className="nav-link px-2 text-muted">FAQs</Link></li>
+                <li className="nav-item"><Link href="#" className="nav-link px-2 text-muted">About</Link></li>
                 </ul>
-                <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
+                <p className="text-center text-muted">&copy; 2021 Company, Inc</p>
             </footer>
         </div>
     )
