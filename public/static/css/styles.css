@@ -54,6 +54,18 @@
   min-height: 500px;
 }
 
+.welcome-container {
+  background-image: url('../images/home-page-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  height: 650px;
+  text-align: center;
+}
+.welcome-text{
+  padding-top: 50px;
+}
+
 .container-footer {
   background-color: rgb(48, 48, 48);
   -webkit-text-fill-color: rgb(255, 255, 255);
