@@ -26,7 +26,10 @@ const Layout = ({children}) => {
     }
 
     const brand = () => {
-        return  <img src="/static/images/junkyard-logo.png" alt="jy-logo" width="100" height="100"/> 
+        return  <div className="brand-black-bg">
+            <img className="brand-logo" src="/static/images/junkyard-logo.png" alt="jy-logo"/>
+        </div>
+        
     }
             
     
@@ -56,7 +59,7 @@ const Layout = ({children}) => {
     )
 
     const footer = () => (
-        <div class="container">
+        <div class="container-footer">
             <footer class="py-3 my-4">
                 <ul className="nav justify-content-center border-bottom pb-3 mb-3">
                 <li className="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
