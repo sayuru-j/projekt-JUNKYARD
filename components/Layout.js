@@ -21,42 +21,41 @@ const Layout = ({children}) => {
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
             crossOrigin="anonymous"/>
             <link rel="stylesheet" href="/static/css/styles.css"/>
+            <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
            </header>
            </React.Fragment>
     )
 
-    const brand = () => (
-        <div className="brand-black-bg">
-            <img className="brand-logo" src="/static/images/junkyard-logo.png" alt="jy-logo"/>
-        </div>
-    )
+    
     
             
     
             
 
     const nav = () => (
-                    <ul className="nav nav-tabs bg-dark">
+                    <ul className="nav nav-custom">
+                            <a href="/"><img className="brand-logo" src="/static/images/junkyard-logo.png" alt="jy-logo"/></a>
+                        
             <li className="nav-item">
-                <Link className="nav-link text-light" href="/">Home</Link>
+                <Link className="nav-link text-dark nav-items-align" href="/">Home</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link text-light" href="/collect">Collect</Link>
+                <Link className="nav-link text-dark nav-items-align" href="/collect">Collect</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link text-light" href="/center">Centers</Link>
+                <Link className="nav-link text-dark nav-items-align" href="/center">Recycling Centers</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link text-light" href="/product">Products</Link>
+                <Link className="nav-link text-dark nav-items-align" href="/product">Products</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link text-light" href="/fleet">Fleet</Link>
+                <Link className="nav-link text-dark nav-items-align" href="/fleet">Fleet</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link text-light" href="/aboutus">About Us</Link>
+                <Link className="nav-link text-dark nav-items-align" href="/aboutus">About Us</Link>
             </li>
             <div className="sign-up-btn">
-            <button type="button" class="btn btn-primary btn-sm">Sign Up For Services</button>
+            <button type="button" class="btn btn-primary btn-sm nav-items-align"><Link className="sign-up-btn-size" href="/signup">Sign Up For Services</Link></button>
             </div>
             </ul>
             
@@ -78,7 +77,6 @@ const Layout = ({children}) => {
 
     return <React.Fragment>
         {head()} 
-        {brand()}
         {nav()} 
         
         {children} 
