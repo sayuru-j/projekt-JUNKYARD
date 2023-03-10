@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/sayuru-j/projekt-JUNKYARD#readme",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "bootstrap": "^5.2.3",
     "next": "^13.2.3",
+    "nprogress": "^0.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

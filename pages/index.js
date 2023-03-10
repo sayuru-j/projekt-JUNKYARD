@@ -1,5 +1,7 @@
-function HomePage() {
-    return <div>Welcome to Next.js!</div>
+import Layout from '../components/Layout'
+
+const HomePage = () => {
+    return <Layout>Home</Layout>
   }
   
   export default HomePage;
