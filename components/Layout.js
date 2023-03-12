@@ -63,7 +63,7 @@ const Layout = ({children}) => {
     )
 
     const footer = () => (
-            <footer className="py-3 my-4 container-footer">
+            <footer className="py-3 container-footer">
                 <ul className="nav justify-content-center border-bottom pb-3 mb-3">
                 <li className="nav-item"><Link href="/" className="nav-link px-2 text-muted">Home</Link></li>
                 <li className="nav-item"><Link href="#" className="nav-link px-2 text-muted">Features</Link></li>
