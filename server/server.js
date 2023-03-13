@@ -17,6 +17,12 @@ const app = express()
 // Import routes
 const authRoutes = require('./routes/auth')
 
+// App middlewares
+app.use(morgan('dev'))
+app.use(bodyParser.json())
+// app.use(cors())
+app.use({ origin: process.env.CLIENT_URL })
+
 // Middlewares
 app.use("/api", authRoutes)
 

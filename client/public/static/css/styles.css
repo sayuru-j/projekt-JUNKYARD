@@ -60,6 +60,7 @@ html * {
 .nav-custom {
   min-height: 50px;
   background-color: #fcfcfc;
+  
 }
 
 .nav-items-align{
@@ -75,15 +76,16 @@ html * {
 }
 
 .container-home{
-  min-height: 400px;
+  height: auto;
 }
 
 .welcome-container {
   background-image: url('../images/home-page-banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #cccccc;
-  height: 650px;
+  background-position: center;
+  background-color: #ffffff;
+  min-height: 750px;
   text-align: center;
 }
 .welcome-text{
@@ -112,8 +114,9 @@ html * {
 }
 
 .card-img{
-  height: 150px;
-  width: 150px;
+  size: 100%;
+  max-width: 150px;
+  max-height: 150px;
   margin: 30px;
 }
 

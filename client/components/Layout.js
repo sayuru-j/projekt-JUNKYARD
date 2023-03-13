@@ -22,6 +22,7 @@ const Layout = ({children}) => {
             crossOrigin="anonymous"/>
             <link rel="stylesheet" href="/static/css/styles.css"/>
             <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
+            <link rel="shortcut icon" href="#"></link>
            </header>
            </React.Fragment>
     )
@@ -55,7 +56,7 @@ const Layout = ({children}) => {
                 <Link className="nav-link text-dark nav-items-align" href="/aboutus">About Us</Link>
             </li>
             <div className="sign-up-btn">
-            <button type="button" class="btn btn-primary btn-sm nav-items-align"><Link className="sign-up-btn-size" href="/signup">Sign Up For Services</Link></button>
+            <button type="button" className="btn btn-primary btn-sm nav-items-align"><Link className="sign-up-btn-size" href="/signup">Sign Up For Services</Link></button>
             </div>
             </ul>
             
@@ -65,11 +66,11 @@ const Layout = ({children}) => {
     const footer = () => (
             <footer className="py-3 container-footer">
                 <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-                <li className="nav-item"><Link href="/" className="nav-link px-2 text-muted">Home</Link></li>
-                <li className="nav-item"><Link href="#" className="nav-link px-2 text-muted">Features</Link></li>
-                <li className="nav-item"><Link href="#" className="nav-link px-2 text-muted">Pricing</Link></li>
-                <li className="nav-item"><Link href="#" className="nav-link px-2 text-muted">FAQs</Link></li>
-                <li className="nav-item"><Link href="#" className="nav-link px-2 text-muted">About</Link></li>
+                <li className="nav-item"><Link href="/" as="/signup" className="nav-link px-2 text-muted">Home</Link></li>
+                <li className="nav-item"><Link href="#" as="#" className="nav-link px-2 text-muted">Features</Link></li>
+                <li className="nav-item"><Link href="#" as="#" className="nav-link px-2 text-muted">Pricing</Link></li>
+                <li className="nav-item"><Link href="#" as="#" className="nav-link px-2 text-muted">FAQs</Link></li>
+                <li className="nav-item"><Link href="#" as="#" className="nav-link px-2 text-muted">About</Link></li>
                 </ul>
                 <p className="text-center text-muted">&copy; 2021 Company, Inc</p>
             </footer>

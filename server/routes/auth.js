@@ -6,7 +6,7 @@ const router = express.Router()
 const { register } = require('../controllers/auth')
 
 // The data to send after hitting endpoint
-router.get('/register', register)
+router.post('/register', register)
 
 
 // module.exports is a special object that makes this module available to other modules
