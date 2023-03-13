@@ -18,10 +18,11 @@ const HomeComponents = () => {
     )
 
       const sampleCard = () => (
+        <div className='our-serv-container'>
         <div className='our-services-container'>
           <h2 className="text-os">Our Services</h2>
         <div className='our-services-container-card'>
-                  <Card sx={{ maxWidth: 200}}>
+                  <Card sx={{ maxWidth: 200, maxHeight: 420}}>
                 <CardMedia
                   component="img"
                   alt="green iguana"
@@ -37,13 +38,9 @@ const HomeComponents = () => {
                     species, ranging across all continents except Antarctica
                   </Typography>
                 </CardContent>
-                <CardActions>
-                  <Button size="small">Share</Button>
-                  <Button size="small">Learn More</Button>
-                </CardActions>
               </Card>
 
-              <Card sx={{ maxWidth: 200}}>
+              <Card sx={{ maxWidth: 200, maxHeight: 420}}>
                 <CardMedia
                   component="img"
                   alt="green iguana"
@@ -59,13 +56,9 @@ const HomeComponents = () => {
                     species, ranging across all continents except Antarctica
                   </Typography>
                 </CardContent>
-                <CardActions>
-                  <Button size="small">Share</Button>
-                  <Button size="small">Learn More</Button>
-                </CardActions>
               </Card>
 
-              <Card sx={{ maxWidth: 200}}>
+              <Card sx={{ maxWidth: 200, maxHeight: 420}}>
                 <CardMedia
                   component="img"
                   alt="green iguana"
@@ -80,13 +73,9 @@ const HomeComponents = () => {
                     Lizards are a 
                   </Typography>
                 </CardContent>
-                <CardActions>
-                  <Button size="small">Share</Button>
-                  <Button size="small">Learn More</Button>
-                </CardActions>
               </Card>
 
-              <Card sx={{ maxWidth: 200}}>
+              <Card sx={{ maxWidth: 200, maxHeight: 420}}>
                 <CardMedia
                   component="img"
                   alt="green iguana"
@@ -101,15 +90,10 @@ const HomeComponents = () => {
                     Lizards are a 
                   </Typography>
                 </CardContent>
-                <div>
-                <CardActions>
-                  <Button size="small">Share</Button>
-                  <Button size="small">Learn More</Button>
-                </CardActions>
-                </div>
               </Card>
               
 
+              </div>
               </div>
               </div>
 

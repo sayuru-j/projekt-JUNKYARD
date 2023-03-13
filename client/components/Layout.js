@@ -52,7 +52,7 @@ const Layout = ({children}) => {
             </li>
             <div className="sign-up-btn">
             <Link href="/signup">
-            <Button variant="contained">Sign Up For Services</Button>
+            <Button variant="contained" color="success">Sign Up For Services</Button>
             </Link>
             </div>
             </ul>
