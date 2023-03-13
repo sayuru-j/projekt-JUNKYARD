@@ -22,6 +22,7 @@
   "homepage": "https://github.com/sayuru-j/projekt-JUNKYARD#readme",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
+    "axios": "^1.3.4",
     "bootstrap": "^5.2.3",
     "next": "^13.2.3",
     "nprogress": "^0.2.0",

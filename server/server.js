@@ -21,7 +21,9 @@ const authRoutes = require('./routes/auth')
 app.use(morgan('dev'))
 app.use(bodyParser.json())
 // app.use(cors())
-app.use({ origin: process.env.CLIENT_URL })
+app.use(cors({
+    origin: process.env.CLIENT_URL || 'http://localhost:3000'
+  }));
 
 // Middlewares
 app.use("/api", authRoutes)

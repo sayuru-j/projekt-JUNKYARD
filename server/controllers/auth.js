@@ -1,3 +1,3 @@
-exports.register = (req, res)=> {
-    console.log('REGISTER CONTROLLER', req.body)
+exports.signup = (req, res)=> {
+    console.log('SIGNUP CONTROLLER', req.body)
 }
