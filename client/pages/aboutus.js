@@ -4,10 +4,11 @@ import Layout from "../components/Layout";
 const AboutUsPage = () => {
 
     return <Layout>
-        <div className="container vh text-os">
+        <div className="container vh aboutus-os">
             <div className="row">
                 <div className="col-sm">
-            <p>JUNKYARD is a leading environmental services company in Sri Lanka, offering a wide range of services in solid waste management, liquid waste management, and soil remediation. </p>
+                    <h5>About Us</h5>
+            <p className="text-os">JUNKYARD is a leading environmental services company in Sri Lanka, offering a wide range of services in solid waste management, liquid waste management, and soil remediation. </p>
 
             <p>With strategically located operations throughout Sri Lanka, JUNKYARD is uniquely equipped to tackle any environmental challenge with unparalleled commitment to safety and customer service.</p>
 
@@ -19,7 +20,7 @@ const AboutUsPage = () => {
             </div>
             <div className="col-sm">
                 <div className="img-pad">
-                    <img className="img-fluid text-center" alt="about-us" src="/static/images/about-us.jpg"/>
+                    <img className="img-fluid text-center" alt="about-us" src="/static/images/about-us.png"/>
                 </div>
             </div>
             </div>

@@ -22,6 +22,7 @@ const Layout = ({children}) => {
             crossOrigin="anonymous"/>
             <link rel="stylesheet" href="/static/css/styles.css"/>
             <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'></link>
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet"></link>
             <link rel="shortcut icon" href="#"></link>
            </header>
            </React.Fragment>
@@ -37,22 +38,22 @@ const Layout = ({children}) => {
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
-      <li className="nav-item">
+      <li className="nav-item text-pad">
         <Link className="nav-link" href="/">Home <span className="sr-only">(current)</span></Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item text-pad">
         <Link className="nav-link" href="/collect">Collect <span className="sr-only">(current)</span></Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item text-pad">
         <Link className="nav-link" href="/center">Our Centers <span className="sr-only">(current)</span></Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item text-pad">
         <Link className="nav-link" href="/product">Recycled Products <span className="sr-only">(current)</span></Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item text-pad">
         <Link className="nav-link" href="/fleet">Our Fleet <span className="sr-only">(current)</span></Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item text-pad">
         <Link className="nav-link" href="/aboutus">About Us <span className="sr-only">(current)</span></Link>
       </li>
     </ul>
