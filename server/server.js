@@ -11,8 +11,18 @@ const mongoose = require('mongoose')
 // Using dotenv to load environment variable using process.env
 require('dotenv').config()
 
+// Terminal color codes
+red = '\033[1;91m'
+green = '\033[1;92m'
+blue = '\033[1;94m'
+
 
 const app = express()
+
+// DB connection
+mongoose.connect(process.env.MONGO_DB, { useNewUrlParser: true, useUnifiedTopology: true})
+    .then(()=> console.log(green+'DB connection established'))
+    .catch(err=> console.log(err))
 
 // Import routes
 const authRoutes = require('./routes/auth')
