@@ -1,6 +1,8 @@
 import Layout from "../components/Layout";
 
+
 const AboutUsPage = () => {
+
     return <Layout>
         <div className="container vh text-os">
             <div className="row">
@@ -22,6 +24,8 @@ const AboutUsPage = () => {
             </div>
             </div>
         </div>
+
+        
     </Layout>
 }
 
