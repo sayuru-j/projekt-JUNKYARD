@@ -69,8 +69,11 @@ body{
 
 .nav-custom {
   max-height: 50px;
-  background-color: #fcfcfc;
+  background-color: #ffffff00;
   align-items: center;
+  background-image: url('../images/home-page-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-items-align{

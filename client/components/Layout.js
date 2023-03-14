@@ -29,7 +29,7 @@ const Layout = ({children}) => {
             
 
     const nav = () => (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light nav-custom">
+        <nav className="navbar navbar-expand-lg navbar-light nav-custom">
   <a href="/"><img className="brand-logo" src="/static/images/junkyard-logo.png" alt="jy-logo"/></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
