@@ -16,6 +16,23 @@ body{
   padding-right: 20px;
 }
 
+.form-pad{
+  padding: 25px;
+}
+
+.card-pad{
+  padding: 25px;
+}
+
+.card-pad2{
+  padding: 50px;
+}
+
+.card-size{
+  max-height: 400px;
+  max-width: 400px;
+  padding: 30px;
+}
 
 #nprogress .bar {
     background: #ED2939;
@@ -52,6 +69,9 @@ body{
   margin-right: 45px;
 }
 
+.card-btn{
+  padding: 10px;
+}
 
 .sign-up-btn a{
   text-decoration: none !important;
@@ -61,6 +81,7 @@ body{
 .sign-up-form-container {
   align-items: center;
 }
+
 
 
 
@@ -130,8 +151,7 @@ body{
 }
 
 .our-services-container-card{
-  padding-top: 50px;
-  display: flex;
+  padding-top: 40px;
   justify-content: space-between;
 }
 

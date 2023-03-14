@@ -35,7 +35,7 @@ const SignUpPage = () => {
 
     const signupForm = () => (
         <div className="sign-up-form-container vh our-serv-container">
-                <form onSubmit={handleSubmit} className="sign-up-form">
+                <form onSubmit={handleSubmit} className="sign-up-form form-pad">
                 <div className="form-group">
             <label htmlFor="exampleInputName1">Name</label>
             <input value={name} onChange={handleChange('name')} type="text" className="form-control" id="exampleInputName1" placeholder="Enter name" required/>

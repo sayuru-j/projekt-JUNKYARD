@@ -5,6 +5,8 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
 
 
 const HomeComponents = () => {
@@ -22,7 +24,12 @@ const HomeComponents = () => {
         <div className='our-services-container'>
           <h2 className="text-os">Our Services</h2>
         <div className='our-services-container-card container'>
-                  <Card sx={{ maxWidth: 220, maxHeight: 420}}>
+          <div className='row justify-content-center'>
+
+
+
+                  <div className='co card-pad'>
+                  <Card sx={{ maxWidth: 220, minHeight: 350}}>
                 <CardMedia
                   component="img"
                   alt="green iguana"
@@ -41,7 +48,11 @@ const HomeComponents = () => {
                 </div>
               </Card>
 
-              <Card sx={{ maxWidth: 220, maxHeight: 420}}>
+
+                </div>
+
+               <div className='col- card-pad'>
+              <Card sx={{ maxWidth: 220, minHeight: 350}}>
                 <CardMedia
                   component="img"
                   alt="green iguana"
@@ -60,7 +71,12 @@ const HomeComponents = () => {
                 </div>
               </Card>
 
-              <Card sx={{ maxWidth: 220, minHeight: 420}}>
+              </div>
+              
+
+
+              <div className='col- card-pad'>
+              <Card sx={{ maxWidth: 220, minHeight: 350}}>
                 <CardMedia
                   component="img"
                   alt="green iguana"
@@ -79,7 +95,12 @@ const HomeComponents = () => {
                 </div>
               </Card>
 
-              <Card sx={{ maxWidth: 220, maxHeight: 420}}>
+
+              </div>
+
+
+              <div className='col- card-pad'>
+              <Card sx={{ maxWidth: 220, minHeight: 350}}>
                 <CardMedia
                   component="img"
                   alt="green iguana"
@@ -98,20 +119,24 @@ const HomeComponents = () => {
                 </div>
               </Card>
               
+                </div>
+              </div>
 
               </div>
               </div>
+    
               </div>
 
               
       )
+
+
         
       
 
       return <div className='container-home'>
         {homeBanner()}
         {sampleCard()}
-        
       </div>
 }
 

@@ -74,11 +74,13 @@ const Layout = ({children}) => {
                 <ul className="nav justify-content-center border-bottom pb-3 mb-3">
                 <li className="nav-item"><Link href="/" as="/" className="nav-link px-2 text-muted">Home</Link></li>
                 <li className="nav-item"><Link href="#" as="#" className="nav-link px-2 text-muted">Collect</Link></li>
-                <li className="nav-item"><Link href="#" as="#" className="nav-link px-2 text-muted">Visit a Center</Link></li>
+                <li className="nav-item"><Link href="/center" as="/center" className="nav-link px-2 text-muted">Recycling Centers</Link></li>
                 <li className="nav-item"><Link href="#" as="#" className="nav-link px-2 text-muted">Buy Recycled Products</Link></li>
                 <li className="nav-item"><Link href="#" as="#" className="nav-link px-2 text-muted">Garbage Trucks</Link></li>
+                <li className="nav-item"><Link href="/aboutus" as="/aboutus" className="nav-link px-2 text-muted">About Us</Link></li>
+                <li className="nav-item"><Link href="/signup" as="/signup" className="nav-link px-2 text-muted">Sign Up</Link></li>
                 </ul>
-                <p className="text-center text-muted">JUNKYARD © 2023 SJ, Inc.</p>
+                <p className="text-center text-muted">JUNKYARD © 2023 <a target="_blank" href="https://github.com/sayuru-j">SJ</a>, Inc.</p>
             </footer>
     )
 
