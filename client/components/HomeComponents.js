@@ -21,75 +21,81 @@ const HomeComponents = () => {
         <div className='our-serv-container'>
         <div className='our-services-container'>
           <h2 className="text-os">Our Services</h2>
-        <div className='our-services-container-card'>
-                  <Card sx={{ maxWidth: 200, maxHeight: 420}}>
+        <div className='our-services-container-card container'>
+                  <Card sx={{ maxWidth: 220, maxHeight: 420}}>
                 <CardMedia
                   component="img"
                   alt="green iguana"
                   height="140"
                   image="/static/images/waste-collection.jpg"
                 />
+                <div className="card-content">
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
+                  <Typography gutterBottom variant="h6" component="div">
                     Waste Collection
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica
+                  We offer waste collection services throughout Sri Lanka, keeping the environment clean and healthy for 20M+ people.
                   </Typography>
                 </CardContent>
+                </div>
               </Card>
 
-              <Card sx={{ maxWidth: 200, maxHeight: 420}}>
+              <Card sx={{ maxWidth: 220, maxHeight: 420}}>
                 <CardMedia
                   component="img"
                   alt="green iguana"
                   height="140"
                   image="/static/images/recycling-centers.jpg"
                 />
+                <div className="card-content">
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
+                  <Typography gutterBottom variant="h6" component="div">
                     Recycling Centers
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica
+                  Our goal is to establish recycling centers, creating jobs and promoting a cleaner world by conserving resources.
                   </Typography>
                 </CardContent>
+                </div>
               </Card>
 
-              <Card sx={{ maxWidth: 200, maxHeight: 420}}>
+              <Card sx={{ maxWidth: 220, minHeight: 420}}>
                 <CardMedia
                   component="img"
                   alt="green iguana"
                   height="140"
                   image="/static/images/recycled-products.jpg"
                 />
+                <div className="card-content">
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
+                  <Typography gutterBottom variant="h6" component="div">
                     Recycled Products
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Lizards are a 
+                  Recycling is a growing trend that conserves resources and helps us stay on this earth longer.
                   </Typography>
                 </CardContent>
+                </div>
               </Card>
 
-              <Card sx={{ maxWidth: 200, maxHeight: 420}}>
+              <Card sx={{ maxWidth: 220, maxHeight: 420}}>
                 <CardMedia
                   component="img"
                   alt="green iguana"
                   height="140"
                   image="/static/images/waste-vehicles.jpg"
                 />
+                <div className="card-content">
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
+                  <Typography gutterBottom variant="h6" component="div">
                     Garbage Trucks
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Lizards are a 
+                  We provide customized waste collection vehicles for efficient and effective garbage collection.
                   </Typography>
                 </CardContent>
+                </div>
               </Card>
               
 

@@ -3,6 +3,12 @@ html * {
   
 }
 
+body{
+  margin:0;
+  padding:0;
+}
+
+
 #nprogress .bar {
     background: #ED2939;
     position: fixed;
@@ -83,7 +89,7 @@ html * {
   background-size: cover;
   background-position: center;
   background-color: #ffffff;
-  min-height: 750px;
+  min-height: 800px;
   text-align: center;
 }
 .welcome-text{
@@ -96,7 +102,7 @@ html * {
   background-size: cover;
   background-position: center;
   background-color: #ffffff;
-  min-height: 750px;
+  min-height: 800px;
 }
 
 .our-services-container{
@@ -107,28 +113,19 @@ html * {
 }
 
 .text-os{
-  margin: 50px;  
+  padding-top: 50px;  
 }
 
 .our-services-container-card{
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 50px;
   display: flex;
-  overflow-x: hidden;
   justify-content: space-between;
-  padding-bottom: 100px;
-  
 }
 
-
-.card-img{
-  size: 100%;
-  max-width: 150px;
-  max-height: 150px;
-  margin: 30px;
+.card-content{
+  padding-top: 20px;
 }
+
 
 .container-footer {
   background-color: #172231;
