@@ -68,7 +68,7 @@ body{
 }
 
 .nav-custom {
-  min-height: 50px;
+  max-height: 50px;
   background-color: #fcfcfc;
   align-items: center;
 }
