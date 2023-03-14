@@ -34,7 +34,7 @@ const SignUpPage = () => {
 
 
     const signupForm = () => (
-        <div className="sign-up-form-container">
+        <div className="sign-up-form-container vh our-serv-container">
                 <form onSubmit={handleSubmit} className="sign-up-form">
                 <div className="form-group">
             <label htmlFor="exampleInputName1">Name</label>
@@ -61,8 +61,7 @@ const SignUpPage = () => {
     return <Layout>
         <div>
             {signupForm()}
-            <br/>
-            {JSON.stringify(state)}
+            {/*  {JSON.stringify(state)} */} 
         </div>
     </Layout>
 }

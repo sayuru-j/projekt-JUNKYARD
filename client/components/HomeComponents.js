@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 
 const HomeComponents = () => {
     const homeBanner = () => (
-        <div className='welcome-container'>
+        <div className='welcome-container vh'>
           <div className='welcome-text'>
           <h2>Zero Waste</h2>
           <h5>Sustainable living starts with Zero Waste. Let's keep Sri Lanka clean and green.</h5>
@@ -18,7 +18,7 @@ const HomeComponents = () => {
     )
 
       const sampleCard = () => (
-        <div className='our-serv-container'>
+        <div className='our-serv-container vh'>
         <div className='our-services-container'>
           <h2 className="text-os">Our Services</h2>
         <div className='our-services-container-card container'>
